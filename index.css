@@ -1,0 +1,344 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    height:120vh;
+    position: relative;
+}
+
+.navbar{
+    position: absolute;
+    bottom: 860px;
+    width: 100wh;        
+    
+   
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.logo{
+    width: 162px;
+    height: 145px;
+    margin-left: auto;
+    margin-right:30px ;
+   margin-top: -40px;
+    
+}
+
+.btext1{
+    font-size: 27px;
+    color:white;
+    font-weight: 700;
+    position: absolute;
+    bottom: 600px;
+    left:500px;
+    letter-spacing: 2px;
+    
+}
+
+.btext2{
+    font-size: 65px;
+    color:white;
+    font-weight:900;
+    position: absolute;
+    bottom: 500px;
+    left:140px;
+    letter-spacing: 2px;
+}
+
+.button{
+    
+    position: absolute;
+    width: 225px;
+    height: 76px;
+    bottom: 400px;
+    left:620px;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+    transition: 0.3s ease;
+    border: none;
+    background: orangered;
+   
+}
+
+.button:hover{
+   border: 1px solid orangered;
+    background:transparent;
+}
+
+.banner{
+    /*position: absolute;*/
+    /*margin-left: 40px;*/
+    width: 1439px;
+    height: 402px;
+    padding: 15px;
+    background-image: url("https://s7g10.scene7.com/is/image/ktm/config-banner?wid=1500&dpr=off");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.space{
+    width: 100%;
+    height: 80px;
+}
+
+.banner p{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.banner:hover{
+    .ptext1{
+        opacity: 0;
+    }
+
+    .ptext2{
+        opacity: 0;
+    }
+}
+
+
+
+.ptext1{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.ptext2{
+    /*position: absolute;*/
+    font-size: 70px;
+    /*bottom: 70px;
+    left:200px;*/
+    font-weight: bolder;
+    
+}
+
+#txt{
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+}
+
+#txt:hover{
+   cursor: pointer;
+   color: orangered;
+}
+
+#para{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.grid{
+    display: grid;
+    width: 729px;
+    height: 540px;
+    grid-template-columns: 369.3px 369.3px;
+    grid-template-rows: 270px 270px;
+}
+
+.vc1{
+   margin-left:-5px;
+}
+
+.vc3{
+    margin-left:-6px;
+}
+
+
+.insta{
+    width: 729px;
+    height: 540px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.instap{
+    font-size: 38px;
+    font-weight: 800;
+    color: white;
+}
+
+.instatag{
+    font-size: 20px;
+    color: white;
+}
+
+.ibtn{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    width: 200px;
+    height: 70px;
+}
+
+.ibtn:hover{
+    color: orangered;
+    border-color: orangered;
+}
+
+
+.newsletter{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    border-bottom: 1px solid black;
+    
+}
+
+.newsletter p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.newsletter button{
+    width: 180PX;
+    height: 90PX;
+    background-color: transparent;
+    color: orangered;
+    border: 1px SOLID orangered;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.newsletter button:hover{
+    background-color:orangered;
+    color: white;
+}
+
+.info{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.infop{
+    width: 714px;
+    font-size: .85em;
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    height: 500px;
+    border-bottom: 1px solid white;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-top: 100px;
+}
+
+.foot1{
+    margin-left: 50px;
+}
+
+.foot h3{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.foot a{
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.foot a:hover{
+    color: orangered;
+}
+
+.footimg{
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footimg image{
+    width: 20px;
+    height: 10px;
+}
+
+
+.copyright{
+    height: 100px;
+    border-top: 1px solid grey;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
